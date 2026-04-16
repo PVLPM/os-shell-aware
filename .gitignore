@@ -1,0 +1,43 @@
+# OpenCode Plugin Project
+# =======================
+
+# Agent/IDE metadata (local paths)
+AGENTS.md
+HANDOVER.md
+PLAN.md
+memorix.yml
+.sisyphus/
+local_cache/
+
+# OpenCode config (local only)
+.opencode/opencode.json
+.opencode/oh-my-openagent.json
+.opencode/plugins/memorix.js
+
+# Dependencies
+node_modules/
+
+# Bun
+bun.lockb
+
+# Build output
+dist/
+build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*~
+.*.swo
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+*.tmp
+.tmp/
